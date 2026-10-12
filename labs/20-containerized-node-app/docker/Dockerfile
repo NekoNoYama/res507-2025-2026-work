@@ -7,6 +7,8 @@ WORKDIR /app
 COPY app/package*.json ./
 RUN npm ci
 
+syntaxe error
+
 # Copy application source
 COPY app/ ./
 
